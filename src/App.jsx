@@ -36,7 +36,6 @@ function App() {
   }, []);
   return (
     <>
-      <BrowserRouter>
         <NavBar />
         <Routes>
           <Route
@@ -63,7 +62,6 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
     </>
   );
 }
